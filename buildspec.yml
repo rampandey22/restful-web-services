@@ -12,6 +12,7 @@ phases:
       - unzip awscliv2.zip
       - sudo ./aws/install
       - sudo yum -y install jq gettext bash-completion moreutils
+      - mvn clean install
 
   pre_build:
       commands:
