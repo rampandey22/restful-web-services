@@ -3,12 +3,13 @@ kind: Service
 metadata:
   name: todoapp
 spec:
-  type: LoadBalancer
-  ports:
-    - port: 80
-      targetPort: 8080
   selector:
     app: todoapp
+  type: LoadBalancer
+  ports:
+   -  protocol: TCP
+      port: 80
+      targetPort: 8080
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -32,9 +33,6 @@ spec:
       containers:
         - name: todoapp
           image: CONTAINER_IMAGE
-          securityContext:
-            privileged: false
-            readOnlyRootFilesystem: true
-            allowPrivilegeEscalation: false
           ports:
             - containerPort: 8080
+              protocol: TCP
