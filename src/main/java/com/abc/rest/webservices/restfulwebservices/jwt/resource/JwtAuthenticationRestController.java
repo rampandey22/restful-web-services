@@ -25,7 +25,7 @@ import com.abc.rest.webservices.restfulwebservices.jwt.JwtTokenUtil;
 import com.abc.rest.webservices.restfulwebservices.jwt.JwtUserDetails;
 
 @RestController
-@CrossOrigin(origins="http://todoapp010489.s3-website-ap-southeast-2.amazonaws.com/")
+@CrossOrigin(origins="*")
 public class JwtAuthenticationRestController {
 
   @Value("${jwt.http.request.header}")

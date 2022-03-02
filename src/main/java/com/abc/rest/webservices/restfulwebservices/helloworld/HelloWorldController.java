@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 //Controller
 @RestController
-@CrossOrigin(origins="http://todoapp010489.s3-website-ap-southeast-2.amazonaws.com/")
+@CrossOrigin(origins="*")
 //
 public class HelloWorldController {
 
