@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 //Controller
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="http://todoapp010489.s3-website-ap-southeast-2.amazonaws.com/")
 @RestController
 public class BasicAuthenticationController {
 
