@@ -1,0 +1,19 @@
+Java :
+https://www.youtube.com/watch?v=yWc1I56-UII&ab_channel=JavaTechie
+https://www.youtube.com/watch?v=yWc1I56-UII
+
+React :
+https://www.youtube.com/watch?v=HVw_NZUhDKs&ab_channel=PragmaticReviews
+https://github.com/jakejarvis/s3-sync-action
+https://github.com/pragmatic-reviews/react-actions/blob/master/.github/workflows/workflow.yml
+
+
+
+docker run -p 8080:8080 -t rampandey/restful-web-services
+mvn package && java -jar target/restful-web-services-0.0.1-SNAPSHOT.jar
+docker build -t rampandey/restful-web-services .
+
+https://catalog.us-east-1.prod.workshops.aws/workshops/db317ac8-27d2-4691-a4b6-fdaab2581f99/en-US/5-repo/02-remoterepo
+https://catalog.us-east-1.prod.workshops.aws/workshops/869f7eee-d3a2-490b-bf9a-ac90a8fb2d36/en-US/1-introduction
+https://tf-eks-workshop.workshop.aws/000_workshop_introduction.html
+https://stackoverflow.com/questions/53990203/ssh-into-aws-cloud9-environment
